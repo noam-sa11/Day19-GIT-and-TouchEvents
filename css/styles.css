@@ -7,6 +7,14 @@ h1 {
 }
 
 .ball {
+    background-color: lightcyan;
+}
+
+.ball2 {
+    background-color: lightpink;
+}
+
+.ball-shape {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,5 +28,4 @@ h1 {
     transition: 1s linear;
 
     border-radius: 50%;
-    background-color: lightcyan;
 }

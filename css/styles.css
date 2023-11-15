@@ -7,11 +7,13 @@ h1 {
 }
 
 .ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin: 0 auto;
     width: 100px;
     height: 100px;
-
-    text-align: center;
     font-size: 22px;
     font-weight: bold;
 

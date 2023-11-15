@@ -11,6 +11,8 @@ function onBallClick() {
 
     const elBall = document.querySelector('.ball')
 
+    elBall.style.backgroundColor = getRandomColor()
+
     elBall.style.width = gDiameter + 'px'
     elBall.style.height = gDiameter + 'px'
 

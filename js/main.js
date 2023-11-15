@@ -2,14 +2,12 @@
 
 var gDiameter = +document.querySelector('.ball').innerHTML
 
-function onBallClick() {
+function onBallClick(elBall, maxDiameter) {
     gDiameter += getRandomInt(20, 60)
 
-    if (gDiameter > 400) {
+    if (gDiameter > maxDiameter) {
         gDiameter = 100
     }
-
-    const elBall = document.querySelector('.ball')
 
     elBall.style.backgroundColor = getRandomColor()
 

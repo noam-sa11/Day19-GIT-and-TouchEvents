@@ -3,7 +3,7 @@
 var gDiameter = +document.querySelector('.ball').innerHTML
 
 function onBallClick() {
-    gDiameter += 50
+    gDiameter += getRandomInt(20, 60)
 
     if (gDiameter > 400) {
         gDiameter = 100
